@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S3Omolina.Login">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Label Text="BIENVENIDO AL SISTEMA" FontSize="20" HorizontalTextAlignment="Center"
+                />
+            <Image Source="image1.png"></Image>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition>
+                       
+                    </RowDefinition>
+                    <RowDefinition>
+                        
+                    </RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition>
+                        
+                    </ColumnDefinition>
+                    <ColumnDefinition>
+                        
+                    </ColumnDefinition>
+
+                    
+                </Grid.ColumnDefinitions>
+
+                <Label Text="USUARIO" FontSize="18" Grid.Row="0" Grid.Column="0" />
+                <Entry x:Name="txtUsuario" Placeholder="Ingrese el usuario"  Grid.Row="0" Grid.Column="1" ></Entry>
+                <Label Text="CONTRASEÑA" FontSize="18" Grid.Row="1" Grid.Column="0" />
+                <Entry x:Name="txtPass" Placeholder="Ingrese la contraseña"  Grid.Row="1" Grid.Column="1" IsPassword="True" ></Entry>
+                
+                
+            </Grid>
+            <Button x:Name="txtLogin" Text="Iniciar Sesion "  Clicked="txtLogin_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

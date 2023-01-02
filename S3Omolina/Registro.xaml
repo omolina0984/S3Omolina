@@ -7,6 +7,17 @@
             <Label Text="Ventana de registro"
          HorizontalOptions="Center"/>
             <Label x:Name="lblUsuario" HorizontalTextAlignment="End" FontSize="16"></Label>
+
+
+
+
+            <Label Text="Nombres" FontSize="18" Grid.Row="0" Grid.Column="0" />
+            <Entry x:Name="txtNombre" Placeholder="Ingrese el nombre"  Grid.Row="0" Grid.Column="1" ></Entry>
+            <Label Text="Apellidos" FontSize="18" Grid.Row="1" Grid.Column="0" />
+            <Entry x:Name="txtApellidos" Placeholder="Ingrese los apellidos"  Grid.Row="1" Grid.Column="1"></Entry>
+            <Label Text="Edad" FontSize="18" Grid.Row="1" Grid.Column="0" />
+            <Entry x:Name="txtEdad" Placeholder="Ingrese los apellidos"  Grid.Row="1" Grid.Column="1"></Entry>
+            <Button x:Name="txtAceptar" Text="Aceptar "  Clicked="txtAceptar_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

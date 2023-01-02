@@ -10,23 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace S3Omolina
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Registro : ContentPage
+    public partial class Ventana2 : ContentPage
     {
-        public Registro( string user)
+        public Ventana2()
         {
             InitializeComponent();
-            lblUsuario.Text = user;
-        }
-
-        private void txtAceptar_Clicked(object sender, EventArgs e)
-        {
-    
-
-               
-                    Navigation.PushModalAsync(new Ventana2());
-           
- 
-
         }
     }
 }

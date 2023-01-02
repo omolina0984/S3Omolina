@@ -19,8 +19,8 @@ namespace S3Omolina
 
         private void txtLogin_Clicked(object sender, EventArgs e)
         {
-            string usuario = "omolina";
-            string pass = "12345";
+            string usuario = "estudiante2022";
+            string pass = "uisrael2022";
 
             if (usuario== txtUsuario.Text && pass== txtPass.Text)
             {
